@@ -14,7 +14,8 @@ public class MainActivity extends Activity {
 	}
 
 	//This is the event handler for the show button
-	//This is specified in the xml file.
+	//This is specified in the xml file that this should
+	//be the event handler
 	public void showDialog(View v) {
 		//showing our dialog.
 		MyDialogFragment dialog = new MyDialogFragment() {

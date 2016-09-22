@@ -13,6 +13,12 @@ import android.os.Bundle;
 //the actual text that is now hardcoded inside the strings.xml file
 public class MyDialogFragment extends DialogFragment {
 
+	public MyDialogFragment()
+	{
+
+	}
+
+
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState) {
 

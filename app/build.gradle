@@ -6,8 +6,10 @@ android {
 
     defaultConfig {
         applicationId "com.iducate.dialogfragmentdemo"
-        minSdkVersion 11
-        targetSdkVersion 19
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionName "1.0"
+        versionCode 1
     }
 
     buildTypes {
@@ -19,5 +21,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.android.support:support-v4:23.0.0'
 }

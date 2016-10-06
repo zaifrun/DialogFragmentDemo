@@ -19,6 +19,8 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 		Toast toast = Toast.makeText(context,
 				"positive button clicked", Toast.LENGTH_LONG);
 		toast.show();
+		bag.clear(); //here you can do stuff with the bag and
+		             //adapter etc.
 	}
 
 	static MyDialogFragment dialog;

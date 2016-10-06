@@ -34,7 +34,7 @@ public class MyDialogFragment extends DialogFragment {
 			mCallback = (OnPositiveListener) activity;
 		} catch (ClassCastException e) {
 			throw new ClassCastException(activity.toString()
-					+ " must implement OnHeadlineSelectedListener");
+					+ " must implement OnPositiveListener");
 		}
 	}
 

@@ -1,5 +1,6 @@
 package com.iducate.dialogfragmentdemo;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -14,8 +15,27 @@ import android.os.Bundle;
 public class MyDialogFragment extends DialogFragment {
 
 	public MyDialogFragment()
-	{
+	{}
 
+	OnPositiveListener mCallback;
+
+	// Container Activity must implement this interface
+	public interface OnPositiveListener {
+		public void onPositiveClicked();
+	}
+
+	@Override
+	public void onAttach(Activity activity) {
+		super.onAttach(activity);
+
+		// This makes sure that the container activity has implemented
+		// the callback interface. If not, it throws an exception
+		try {
+			mCallback = (OnPositiveListener) activity;
+		} catch (ClassCastException e) {
+			throw new ClassCastException(activity.toString()
+					+ " must implement OnHeadlineSelectedListener");
+		}
 	}
 
 
@@ -59,7 +79,7 @@ public class MyDialogFragment extends DialogFragment {
 	//be overridden
 	protected void positiveClick() 
 	{
-		
+ 		mCallback.onPositiveClicked();
 	}
 	protected void negativeClick()
 	{

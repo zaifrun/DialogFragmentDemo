@@ -6,10 +6,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
+import java.util.ArrayList;
+
+//we need to implement the interface OnPositiveClicked from my dialog
+public class MainActivity extends Activity implements MyDialogFragment.OnPositiveListener {
+
+	@Override
+	public void onPositiveClicked() {
+		//Do your update stuff here to the listview
+		//and the bag etc
+		//just to show how to get arguments from the bag.
+		Toast toast = Toast.makeText(context,
+				"positive button clicked", Toast.LENGTH_LONG);
+		toast.show();
+	}
 
 	static MyDialogFragment dialog;
 	static Context context;
+
+
+	ArrayList<String> bag = new ArrayList<>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -32,14 +48,6 @@ public class MainActivity extends Activity {
 
 	public static class MyDialog extends MyDialogFragment {
 
-		@Override
-		protected void positiveClick() {
-			//Here we override the methods and can now
-			//do something
-			Toast toast = Toast.makeText(context,
-					"positive button clicked", Toast.LENGTH_LONG);
-			toast.show();
-		}
 
 		@Override
 		protected void negativeClick() {

@@ -21,9 +21,11 @@ public class MyDialogFragment extends DialogFragment {
 
 	// Container Activity must implement this interface
 	public interface OnPositiveListener {
-		public void onPositiveClicked();
+		void onPositiveClicked();
 	}
 
+	//This method will be called when the dialog fragment is called
+	//and "attached" to the current activity
 	@Override
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
@@ -31,6 +33,8 @@ public class MyDialogFragment extends DialogFragment {
 		// This makes sure that the container activity has implemented
 		// the callback interface. If not, it throws an exception
 		try {
+			//we can ONLY do this cast IF the activity
+			//actually implements the interface.
 			mCallback = (OnPositiveListener) activity;
 		} catch (ClassCastException e) {
 			throw new ClassCastException(activity.toString()
@@ -75,12 +79,14 @@ public class MyDialogFragment extends DialogFragment {
 		}
 	};
 	
-    //These two methods are empty, because they will
-	//be overridden
+   //This method ensures that we actually now call the implemented
+	//method defined in the ACTIVITY!
 	protected void positiveClick() 
 	{
  		mCallback.onPositiveClicked();
 	}
+
+	//This method is empty, because it will be overriden
 	protected void negativeClick()
 	{
 		

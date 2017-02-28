@@ -11,6 +11,9 @@ import java.util.ArrayList;
 //we need to implement the interface OnPositiveClicked from my dialog
 public class MainActivity extends Activity implements MyDialogFragment.OnPositiveListener {
 
+	//This method is the one we need to implement from the
+	//interface. It will be called when the user has clicked the
+	//positive button (yes button):
 	@Override
 	public void onPositiveClicked() {
 		//Do your update stuff here to the listview

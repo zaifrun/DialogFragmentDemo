@@ -37,6 +37,8 @@ public class MyDialogFragment extends DialogFragment {
 			//actually implements the interface.
 			mCallback = (OnPositiveListener) activity;
 		} catch (ClassCastException e) {
+			//This kills the program, because we have not
+			//implemented the interface in the activity
 			throw new ClassCastException(activity.toString()
 					+ " must implement OnPositiveListener");
 		}
@@ -49,10 +51,10 @@ public class MyDialogFragment extends DialogFragment {
 		//Here we create a new dialogbuilder;
 		AlertDialog.Builder alert = new AlertDialog.Builder(
 				getActivity());
-		alert.setTitle("Confirmation");
-		alert.setMessage("Are you sure?");
-	    alert.setPositiveButton("Yes", pListener);
-		alert.setNegativeButton("No", nListener);
+		alert.setTitle(R.string.confirmation);
+		alert.setMessage(R.string.areYouSure);
+	    alert.setPositiveButton(R.string.yes, pListener);
+		alert.setNegativeButton(R.string.no, nListener);
 
 		return alert.create();
 	}

@@ -51,7 +51,7 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 		dialog.show(getFragmentManager(), "MyFragment");
 	}
 
-	public static class MyDialog extends MyDialogFragment {
+	public static class  MyDialog extends MyDialogFragment {
 
 
 		@Override

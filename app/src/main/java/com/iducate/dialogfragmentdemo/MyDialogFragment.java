@@ -15,7 +15,9 @@ import android.os.Bundle;
 public class MyDialogFragment extends DialogFragment {
 
 	public MyDialogFragment()
-	{}
+	{
+
+	}
 
 	OnPositiveListener mCallback;
 

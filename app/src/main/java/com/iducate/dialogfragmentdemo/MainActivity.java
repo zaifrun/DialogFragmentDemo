@@ -26,7 +26,7 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 		             //adapter etc.
 	}
 
-	static MyDialogFragment dialog;
+	MyDialogFragment dialog;
 	static Context context;
 
 

@@ -11,6 +11,12 @@ import java.util.ArrayList;
 //we need to implement the interface OnPositiveClicked from my dialog
 public class MainActivity extends Activity implements MyDialogFragment.OnPositiveListener {
 
+    MyDialogFragment dialog;
+    Context context;
+
+
+    ArrayList<String> bag = new ArrayList<>();
+
 	//This method is the one we need to implement from the
 	//interface. It will be called when the user has clicked the
 	//positive button (yes button):
@@ -26,11 +32,7 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 		             //adapter etc.
 	}
 
-	MyDialogFragment dialog;
-	Context context;
 
-
-	ArrayList<String> bag = new ArrayList<>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

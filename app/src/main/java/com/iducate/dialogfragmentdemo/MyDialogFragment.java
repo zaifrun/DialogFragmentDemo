@@ -87,7 +87,8 @@ public class MyDialogFragment extends DialogFragment {
 	//method defined in the ACTIVITY!
 	protected void positiveClick() 
 	{
- 		mCallback.onPositiveClicked();
+
+		mCallback.onPositiveClicked();
 	}
 
 	//This method is empty, because it will be overriden

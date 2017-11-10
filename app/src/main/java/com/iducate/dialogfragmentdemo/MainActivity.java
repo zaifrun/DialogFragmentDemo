@@ -27,7 +27,7 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 	}
 
 	MyDialogFragment dialog;
-	static Context context;
+	Context context;
 
 
 	ArrayList<String> bag = new ArrayList<>();
@@ -35,7 +35,7 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		this.context = this;
+		context = this;
 		setContentView(R.layout.activity_main);
 	}
 
@@ -57,7 +57,7 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 		@Override
 		protected void negativeClick() {
 			//Here we override the method and can now do something
-			Toast toast = Toast.makeText(context,
+			Toast toast = Toast.makeText(getActivity(),
 					"negative button clicked", Toast.LENGTH_SHORT);
 			toast.show();
 		}

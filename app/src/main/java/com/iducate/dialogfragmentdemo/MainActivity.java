@@ -63,6 +63,8 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 					"negative button clicked", Toast.LENGTH_SHORT);
 			toast.show();
 		}
+
+
 	}
 
 }

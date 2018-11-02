@@ -9,9 +9,7 @@ import android.os.Bundle;
 
 
 //You can pretty much reuse this class in your own project
-//if you want you can modify some of the text shown below.
-//of course if it was for a multilingual app you would put
-//the actual text that is now hardcoded inside the strings.xml file
+//You will also need the strings defined in the strings.xml file
 public class MyDialogFragment extends DialogFragment {
 
 	public MyDialogFragment()

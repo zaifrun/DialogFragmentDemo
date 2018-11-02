@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -30,6 +31,8 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 		toast.show();
 		bag.clear(); //here you can do stuff with the bag and
 		             //adapter etc.
+		TextView textView = findViewById(R.id.dataText);
+		textView.setText(""); //clearing the data
 	}
 
 

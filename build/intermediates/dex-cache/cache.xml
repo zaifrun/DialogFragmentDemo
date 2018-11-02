@@ -3,30 +3,93 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.2"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_f216932f47fbf0e8940a05ba1cd7d9dffeb785fe.jar" />
+        revision="26.0.3"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.0.0_e55587c4660b90d2d367edec34c65a34abafcdbe.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jar="C:\Users\makn\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.2"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_42e37ed6de65879ac9f9460708a735a00234ce63.jar" />
+        revision="26.0.3"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\common-1.0.0_be9b14945130edd1bd25ee1516391921612c1075.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\makn\android-sdks\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.2"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_b4317115f32fd7d0cea63dd77ca3608310c109a2.jar" />
+        revision="26.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_579ee4a045d28e0c07bf40c8791d478d86a9d15e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\makn\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\common-1.0.0_1ab7eb5d99485edbce645c9052c4aced5f45b8db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_e97943c6fa614cd395582c66fcc2256e8ff9818d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.1.0_6a2ce89234f7074aaa555c1bcbbb1e959e9390e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.1.0_d5deb8813b02ee9f9b3f27faa09d279ebc73483f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.1.0_b3380c5103cee9e556727e70a188b9ad8f85a38c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_63daba0bd656bf0dba95c143eb6349877997ee91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\makn\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\makn\AndroidStudioProjects\course2016\DialogFragmentDemo\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_4c2e2a5ceaec9d6a7fa8fb9b47e9be168e1434ca.jar" />
     </item>
 
 </items>

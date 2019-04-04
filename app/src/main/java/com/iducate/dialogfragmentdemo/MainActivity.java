@@ -10,10 +10,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 //we need to implement the interface OnPositiveClicked from my dialog
-public class MainActivity extends Activity implements MyDialogFragment.OnPositiveListener {
+public class MainActivity extends Activity
+		implements MyDialogFragment.OnPositiveListener {
 
-    MyDialogFragment dialog;
-    Context context;
+    private Context context;
 
 
     ArrayList<String> bag = new ArrayList<>();
@@ -49,6 +49,8 @@ public class MainActivity extends Activity implements MyDialogFragment.OnPositiv
 	//be the event handler
 	public void showDialog(View v) {
 		//showing our dialog.
+
+		MyDialogFragment dialog;
 
 		dialog = new MyDialog();
 		//Here we show the dialog
